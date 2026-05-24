@@ -387,9 +387,11 @@ body{
 }
 
 .song-info{
-    display:flex;
-    align-items:center;
-    gap:15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: white;
 }
 
 .song-info img{
@@ -397,6 +399,10 @@ body{
     height:60px;
 
     border-radius:10px;
+}
+.song-info p{
+    color: #8a8a8a;
+    font-size: 14px;
 }
 
 .player-controls{
@@ -466,7 +472,6 @@ body{
     cursor:pointer;
     transition:0.3s;
 }
-
 .player-controls i:hover,
 .song-time i:hover,
 .song-info i:hover{
