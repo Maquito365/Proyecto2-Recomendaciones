@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Playlist</title>
+
+    <link rel="stylesheet" href="css/playlist.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+
+    <!-- SIDEBAR -->
+
+    <div class="side-bar">
+
+        <div>
+
+            <h1 class="logo">VIBES</h1>
+
+            <div class="menu">
+
+                <a href="home.html">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a>
+
+                <a href="search.html">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search
+                </a>
+
+                <a href="library.html">
+                    <i class="fa-solid fa-book"></i>
+                    Library
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-radio"></i>
+                    Radio
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="bottom-section">
+
+            <button class="genres-btn">
+                Your Top Genres
+            </button>
+
+            <div class="bottom-menu">
+
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    Settings
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-circle-question"></i>
+                    Support
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="main-content">
+
+        <!-- TOP BAR -->
+
+        <div class="top-bar">
+
+            <div class="top-links">
+
+                <a href="#">Discover</a>
+
+                <a href="#">New Releases</a>
+
+                <a href="#">Live</a>
+
+            </div>
+
+            <div class="top-right">
+
+                <button class="upgrade-btn">
+                    Upgrade
+                </button>
+
+                <i class="fa-regular fa-bell"></i>
+
+                <i class="fa-regular fa-circle-user"></i>
+
+            </div>
+
+        </div>
+
+        <!-- PLAYLIST HEADER -->
+
+        <div class="playlist-header">
+
+            <img
+                class="playlist-cover"
+                src="https://picsum.photos/500?21"
+            >
+
+            <div class="playlist-info">
+
+                <p class="playlist-tag">
+                    PLAYLIST
+                </p>
+
+                <h1>Deep Focus / Vol. 4</h1>
+
+                <p class="playlist-description">
+                    Curated for deep work sessions and neural immersion.
+                    Algorithmically refined using your current listening patterns.
+                </p>
+
+                <div class="playlist-meta">
+
+                    <span>VIBES</span>
+
+                    <span>•</span>
+
+                    <span>48 songs</span>
+
+                    <span>•</span>
+
+                    <span>4h 22min</span>
+
+                </div>
+
+                <div class="playlist-actions">
+
+                    <button class="play-all-btn">
+
+                        <i class="fa-solid fa-play"></i>
+
+                        Play
+
+                    </button>
+
+                    <button class="secondary-btn">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+                    <button class="secondary-btn">
+
+                        <i class="fa-solid fa-ellipsis"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SONG LIST -->
+
+        <div class="song-list">
+
+            <!-- HEADER -->
+
+            <div class="song-list-header">
+
+                <span>#</span>
+
+                <span>TITLE</span>
+
+                <span>ALBUM</span>
+
+                <span>DURATION</span>
+
+            </div>
+
+            <!-- SONGS -->
+
+            <a href="player.html" class="song-row">
+
+                <span>01</span>
+
+                <div class="song-title">
+
+                    <img src="https://picsum.photos/100?22">
+
+                    <div>
+
+                        <h4>Neural Link / Alpha</h4>
+
+                        <p>Jon Hopkins</p>
+
+                    </div>
+
+                </div>
+
+                <p>Signal Drift</p>
+
+                <span>6:14</span>
+
+            </a>
+
+            <a href="player.html" class="song-row">
+
+                <span>02</span>
+
+                <div class="song-title">
+
+                    <img src="https://picsum.photos/100?23">
+
+                    <div>
+
+                        <h4>Ghost in the Stack</h4>
+
+                        <p>Data_Streamer</p>
+
+                    </div>
+
+                </div>
+
+                <p>Void State</p>
+
+                <span>4:22</span>
+
+            </a>
+
+            <a href="player.html" class="song-row">
+
+                <span>03</span>
+
+                <div class="song-title">
+
+                    <img src="https://picsum.photos/100?24">
+
+                    <div>
+
+                        <h4>Cybernetic Bloom</h4>
+
+                        <p>Neural Protocol</p>
+
+                    </div>
+
+                </div>
+
+                <p>Immersion</p>
+
+                <span>5:47</span>
+
+            </a>
+
+            <a href="player.html" class="song-row">
+
+                <span>04</span>
+
+                <div class="song-title">
+
+                    <img src="https://picsum.photos/100?25">
+
+                    <div>
+
+                        <h4>Pulse Architecture</h4>
+
+                        <p>SYNTH_DATA</p>
+
+                    </div>
+
+                </div>
+
+                <p>Neon Collapse</p>
+
+                <span>3:56</span>
+
+            </a>
+
+        </div>
+
+        <!-- RECOMMENDED -->
+
+        <div class="section-title">
+
+            <h2>Recommended Nodes</h2>
+
+        </div>
+
+        <div class="recommended-grid">
+
+            <div class="recommend-card">
+
+                <img src="https://picsum.photos/300?26">
+
+                <h4>Signal Fade</h4>
+
+                <p>94% compatibility</p>
+
+            </div>
+
+            <div class="recommend-card">
+
+                <img src="https://picsum.photos/300?27">
+
+                <h4>Quantum State</h4>
+
+                <p>91% compatibility</p>
+
+            </div>
+
+            <div class="recommend-card">
+
+                <img src="https://picsum.photos/300?28">
+
+                <h4>Data Bloom</h4>
+
+                <p>96% compatibility</p>
+
+            </div>
+
+            <div class="recommend-card">
+
+                <img src="https://picsum.photos/300?29">
+
+                <h4>Void Echo</h4>
+
+                <p>89% compatibility</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PLAYER -->
+
+    <div class="music-player">
+
+        <!-- LEFT -->
+
+        <a href="player.html" class="song-info">
+
+            <img src="https://picsum.photos/100?30">
+
+            <div>
+
+                <h4>Neon Protocol</h4>
+
+                <p>Data_Streamer</p>
+
+            </div>
+
+            <i class="fa-regular fa-heart"></i>
+
+        </a>
+
+        <!-- CENTER -->
+
+        <div class="player-controls">
+
+            <i class="fa-solid fa-shuffle"></i>
+
+            <i class="fa-solid fa-backward"></i>
+
+            <button class="play-btn">
+
+                <i class="fa-solid fa-play"></i>
+
+            </button>
+
+            <i class="fa-solid fa-forward"></i>
+
+            <i class="fa-solid fa-repeat"></i>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="song-time">
+
+            <i class="fa-solid fa-computer"></i>
+
+            <span>2:14</span>
+
+            <div class="progress-bar">
+
+                <div class="progress"></div>
+
+            </div>
+
+            <span>5:42</span>
+
+            <i class="fa-solid fa-volume-high"></i>
+
+            <div class="volume-bar">
+
+                <div class="volume-progress"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="js/playlist.js"></script>
+
+</body>
+
+</html>
